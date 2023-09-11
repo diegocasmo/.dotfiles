@@ -1,0 +1,30 @@
+[user]
+  name = Diego Castillo
+  email = diegocasmo@gmail.com
+[github]
+  user = diegocasmo
+[core]
+  editor = nvim
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
+[push]
+  default = simple
+[credential]
+  helper = osxkeychain
+[alias]
+  pl = pull
+  ch = checkout
+  br = branch
+  cm = commit
+  fixup = commit --fixup=HEAD
+  ph = push
+  phf = push --force-with-lease
+  phn = !bash -c 'git push --set-upstream origin $(git branch --show-current)'
+  phnr = !bash -c 'git commit --allow-empty -m \"Force squash on merge\" && git phn'
+[merge]
+  conflictstyle = diff3
+[rebase]
+  autoSquash = true
+[diff]
+  colorMoved = default

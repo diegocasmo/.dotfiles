@@ -1,0 +1,72 @@
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+
+# Binaries
+brew 'coreutils'
+brew 'curl'
+brew 'wget'
+brew 'bash' # Latest Bash version
+brew 'git'
+brew 'lorem'
+brew 'tmux'
+brew 'tmuxinator'
+brew 'watchman'
+brew 'ack'
+brew 'libpq'
+brew 'node'
+brew 'yarn'
+brew 'graphviz'
+brew 'nvm'
+brew 'openssl'
+brew 'git-delta'
+brew 'neovim'
+brew 'icu4c'
+brew 'flyctl'
+
+# Apps
+cask 'spotify'
+cask '1password'
+cask 'zoom'
+cask 'brave-browser'
+cask 'licecap'
+cask 'notion'
+cask 'nordvpn'
+cask 'todoist'
+cask 'dropbox'
+cask 'rectangle'
+cask 'raycast'
+
+################
+##### Work #####
+################
+# Binaries
+brew 'asdf'
+brew 'readline'
+brew 'zlib'
+brew 'ossp-uuid'
+brew 'autoconf'
+brew 'wxmac'
+brew 'libssh'
+brew 'gnupg'
+brew 'gimme-aws-creds'
+brew 'glab'
+brew 'jq'
+brew 'lz4'
+brew 'pkg-config'
+
+# Apps
+cask 'loom'
+cask 'slack'
+cask 'firefox'
+cask 'wkhtmltopdf'
+cask 'telegram'
+cask 'whatsapp'
+cask 'discord'
+cask 'react-native-debugger'
+cask 'tableplus'
+cask '1password-cli'
+
