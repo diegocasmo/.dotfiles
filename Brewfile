@@ -57,6 +57,7 @@ brew 'glab'
 brew 'jq'
 brew 'lz4'
 brew 'pkg-config'
+brew 'pdftk-java'
 
 # Apps
 cask 'loom'
