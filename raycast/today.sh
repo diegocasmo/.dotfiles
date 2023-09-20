@@ -12,4 +12,4 @@
 # @raycast.description Copy to clipboard today's date
 # @raycast.author Diego Castillo
 
-date +'%Y-%m-%d' | pbcopy
+date -n +'%Y-%m-%d' | pbcopy
