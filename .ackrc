@@ -2,6 +2,9 @@
 --ignore-dir=node_modules
 --ignore-dir=.next
 --ignore-dir=.expo
+--ignore-dir=deps
+--ignore-dir=.elixir_ls
+--ignore-dir=_build
 --type-add=css=.sass,.less,.scss
 --type-add=ruby=.rake
 --type-add=html=.haml,.html.erb,.html.haml
