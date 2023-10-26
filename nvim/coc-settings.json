@@ -1,6 +1,13 @@
 {
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "snippets.ultisnips.enable": false,
+  "solargraph.diagnostics": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.hover": true,
+  "[ruby]": {
+    "coc.preferences.formatOnSave": true
+  },
   "[elixir]": {
     "coc.preferences.formatOnSave": true
   },
