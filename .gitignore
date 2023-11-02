@@ -57,6 +57,7 @@ tags
 # End of https://www.toptal.com/developers/gitignore/api/osx,homebrew,vim
 
 .localrc
+nvim/local.vim
 raycast/local-employ-pass.sh
 tmuxinator/remote.yml
 .tool-versions

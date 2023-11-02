@@ -12,6 +12,7 @@ fi
 
 mkdir -p ${OUTPUT_NVIM_DIR}
 ln -s "$PWD/nvim/init.vim" $OUTPUT_NVIM_DIR/init.vim
+ln -s "$PWD/nvim/local.vim" $OUTPUT_NVIM_DIR/local.vim
 
 # Install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

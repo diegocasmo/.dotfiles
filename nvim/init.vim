@@ -15,6 +15,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'vim-test/vim-test'
 Plug 'pangloss/vim-javascript'
 Plug 'dense-analysis/ale'
+Plug 'Exafunction/codeium.vim'
 
 call plug#end()
 
@@ -139,7 +140,6 @@ let g:coc_global_extensions = [
       \ 'coc-eslint',
       \ 'coc-prettier',
       \ 'coc-json',
-      \ 'coc-solargraph',
       \ ]
 
 " Some servers have issues with backup files
@@ -195,3 +195,8 @@ command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
 au BufRead,BufNewFile *.eex,*.heex,*.leex,*.sface,*.lexs set filetype=eelixir
 au BufRead,BufNewFile mix.lock set filetype=elixir
+
+" Source local.vim configuration file
+if filereadable(expand("~/.config/nvim/local.vim"))
+    source ~/.config/nvim/local.vim
+endif
