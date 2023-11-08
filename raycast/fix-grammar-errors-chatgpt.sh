@@ -12,7 +12,7 @@
 # @raycast.author Diego Castillo
 
 
-echo -n "Fix the grammar errors in this text only. Do not reword.
+echo -n "Fix the grammar errors in this text only. Do not reword. The output must be in markdown.
 
 \`\`\` md
 \`\`\`" | pbcopy
