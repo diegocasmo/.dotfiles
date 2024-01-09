@@ -21,7 +21,6 @@
   ph = push
   phf = push --force-with-lease
   phn = !bash -c 'git push --set-upstream origin $(git branch --show-current)'
-  phnr = !bash -c 'git commit --allow-empty -m \"Force squash on merge\" && git phn'
 [merge]
   conflictstyle = diff3
 [rebase]
