@@ -95,6 +95,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Toggle NERDTree
 map <C-n> :NERDTreeToggle<CR>
+map <C-f> :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
 
 " Open new split panes to right and bottom, which feels more natural
