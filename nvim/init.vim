@@ -15,6 +15,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'vim-test/vim-test'
 Plug 'pangloss/vim-javascript'
 Plug 'dense-analysis/ale'
+Plug 'github/copilot.vim'
 Plug 'Exafunction/codeium.vim'
 
 call plug#end()
