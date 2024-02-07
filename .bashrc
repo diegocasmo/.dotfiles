@@ -11,6 +11,7 @@ alias gs="git status"
 alias gl="git log"
 alias gd="git diff"
 alias gdh="gd HEAD^ HEAD"
+alias gcb="git branch --show-current | pbcopy"
 
 . $(brew --prefix nvm)/nvm.sh
 
