@@ -15,7 +15,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'vim-test/vim-test'
 Plug 'pangloss/vim-javascript'
 Plug 'dense-analysis/ale'
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 
 call plug#end()
 
@@ -135,6 +135,7 @@ autocmd BufRead,BufNewFile *.md,*.mdx,*.js,*.jsx,*.ts,*.tsx setlocal spell
 
 " CoC config
 let g:coc_global_extensions = [
+      \ 'coc-snippets',
       \ 'coc-elixir',
       \ 'coc-tsserver',
       \ 'coc-eslint',
@@ -167,6 +168,13 @@ function! ShowDocumentation()
     call feedkeys('K', 'in')
   endif
 endfunction
+
+" Use tab for trigger completion with characters ahead and navigate
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
 " Make <CR> to accept selected completion item or notify coc.nvim to format
 " <C-g>u breaks current undo, please make your own choice
