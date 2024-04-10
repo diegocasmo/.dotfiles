@@ -10,6 +10,7 @@
   diffFilter = delta --color-only
 [push]
   default = simple
+  autoSetupRemote = true
 [credential]
   helper = osxkeychain
 [alias]
@@ -26,5 +27,3 @@
   autoSquash = true
 [diff]
   colorMoved = default
-[remote]
-  autoSetupRemote = true
