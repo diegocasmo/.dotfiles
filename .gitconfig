@@ -20,10 +20,11 @@
   fixup = commit --fixup=HEAD
   ph = push
   phf = push --force-with-lease
-  phn = !bash -c 'git push --set-upstream origin $(git branch --show-current)'
 [merge]
   conflictstyle = diff3
 [rebase]
   autoSquash = true
 [diff]
   colorMoved = default
+[remote]
+  autoSetupRemote = true
