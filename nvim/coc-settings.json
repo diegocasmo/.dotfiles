@@ -1,19 +1,6 @@
 {
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "snippets.ultisnips.enable": false,
-  "languageserver": {
-    "elixir": {
-      "command": "elixir-ls",
-      "filetypes": ["elixir", "eelixir"],
-      "rootPatterns": ["mix.exs"],
-      "settings": {
-        "elixirLS": {
-          "dialyzerEnabled": false,
-          "fetchDeps": false
-        }
-      }
-    }
-  },
   "[html]": {
     "coc.preferences.formatOnSave": true
   },
