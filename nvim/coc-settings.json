@@ -5,7 +5,7 @@
     "coc.preferences.formatOnSave": true
   },
   "[elixir]": {
-    "coc.preferences.formatOnSave": true
+    "coc.preferences.formatOnSave": false
   },
   "[javascript]": {
     "coc.preferences.formatOnSave": true
