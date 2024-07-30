@@ -71,4 +71,5 @@ cask 'discord'
 cask 'react-native-debugger'
 cask 'tableplus'
 cask '1password-cli'
+cask 'figma'
 
