@@ -12,7 +12,7 @@
 # @raycast.author Diego Castillo
 
 
-echo -n "Correct the grammatical errors in this text without rewording. The output must be in markdown format and presented in a clear, friendly tone.
+echo -n "Please correct the grammatical errors in this text without rewording. The output should be in markdown format and presented clearly and in a friendly tone. Thank you!
 
 \`\`\` md
 \`\`\`" | pbcopy
