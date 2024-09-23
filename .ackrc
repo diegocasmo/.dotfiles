@@ -6,6 +6,7 @@
 --ignore-dir=.elixir_ls
 --ignore-dir=_build
 --ignore-dir=.turbo
+--ignore-dir=storybook-static
 --ignore-dir=apps/employ/playwright/playwright-reports
 --ignore-dir=artifacts/playwright
 --ignore-file=is:tsconfig.tsbuildinfo
