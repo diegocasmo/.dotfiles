@@ -139,6 +139,7 @@ let g:coc_global_extensions = [
       \ 'coc-eslint',
       \ 'coc-prettier',
       \ 'coc-json',
+      \ 'coc-solargraph',
       \ ]
 
 " Some servers have issues with backup files
