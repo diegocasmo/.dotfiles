@@ -59,6 +59,7 @@ brew 'jq'
 brew 'lz4'
 brew 'pkg-config'
 brew 'pdftk-java'
+brew 'fmt'
 
 # Apps
 cask 'loom'
