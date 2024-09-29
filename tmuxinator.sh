@@ -11,7 +11,7 @@ fi
 
 mkdir -p ${OUTPUT_MUX_DIR}
 
-projects='remote.yml movementt.yml okrly.yml indie_ledger.yml mindaxis.yml'
+projects='remote.yml movementt.yml okrly.yml indie_ledger.yml'
 for project in $projects; do
   if [ -e $OUTPUT_MUX_DIR/$project ]
   then
