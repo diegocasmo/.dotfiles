@@ -1,7 +1,6 @@
 {
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "snippets.ultisnips.enable": false,
-  "solargraph.formatting": true,
   "[html]": {
     "coc.preferences.formatOnSave": true
   },
@@ -26,7 +25,7 @@
   "[css]": {
     "coc.preferences.formatOnSave": true
   },
-  "[ruby]": {
+  "[prisma]": {
     "coc.preferences.formatOnSave": true
   }
 }
