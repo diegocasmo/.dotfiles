@@ -47,4 +47,8 @@ on_project_stop: pg_ctl stop
 windows:
   - app: vi
   - servers: yarn run dev
-  - services: postgres
+  - services:
+      layout: even-horizontal
+      panes:
+        - postgres
+        - yarn prisma studio
