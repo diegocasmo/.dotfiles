@@ -2,6 +2,7 @@ alias vi=nvim
 alias today="date +'%Y-%m-%d'"
 alias yesterday="date -j -v -1d +'%Y-%m-%d'"
 alias cdcasmo=$HOME/diegocasmo
+alias cdmindaxis=$HOME/diegocasmo/mindaxis
 alias cdokrly=$HOME/diegocasmo/okrly
 alias cddotfiles=$HOME/.dotfiles
 alias weather="curl wttr.in/Alto+Boquete"
